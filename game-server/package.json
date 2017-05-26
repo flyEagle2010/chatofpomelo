@@ -1,0 +1,16 @@
+{
+	"name": "chatofpomelo",
+	"version": "0.0.1",
+	"private": false,
+	"dependencies": {
+		"pomelo": "2.2.x",
+		"crc": "0.2.0",
+    "loopback": "^2.37.0",
+    "loopback-boom": "^1.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^2.4.0",
+    "loopback-connector-mongodb": "^1.17.0",
+    "loopback-connector-mysql": "^2.4.0",
+    "loopback-datasource-juggler": "^2.39.0"
+	}
+}

@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title '接口测试'
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    script(src='../js/client2.js')
+    script(src='../js/lib/socket.io.js')
+    script(src='../js/lib/pomeloclient.js')
+
+  body(onload='init()')
+
+    div(id='Container')
+      div(id='Header')
+        h5(class='Text') 接口测试
+        select(id='select' 'onchange' = 'selectOne(value)' display='inline-block')
+ 
+        button(id='Button' onclick='onSend()') 发送
+      hr
+      div(id='Left')
+        h5(class='Text') 输入
+        textArea(id='paramTxt' class='TextArea')
+      div(id='Right')
+        h5(class='Text') 输出
+        textArea(id='resultTxt' class='TextArea')

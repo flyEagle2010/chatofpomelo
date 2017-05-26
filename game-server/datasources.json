@@ -1,0 +1,21 @@
+{
+  "memory": {
+    "name": "memory",
+    "connector": "memory",
+    "file": "memoryDB.json"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "mine",
+    "password": "123456",
+    "name": "mine",
+    "user": "root",
+    "connector": "mysql"
+  },
+  "cxer_mongodb": {
+    "url": "mongodb://laundromat:KFvk9sdYxf0HO1jbfUKO@dds-bp17488e0fe503242.mongodb.rds.aliyuncs.com:3717/cxer",
+    "name": "cxer_mongodb",
+    "connector": "mongodb"
+  }
+}
